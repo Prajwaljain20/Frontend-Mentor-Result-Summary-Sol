@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+body{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+h3{
+    color: hsl(241, 100%, 89%);
+    padding: 10px 0 30px 0;
+}
+.resultBox{
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    border-radius: 20px;
+}
+.circle{
+    width: 55%;
+    height: 35%;
+    margin: -40px 0  0 23%;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+h1{
+    padding: 23%;
+    color: hsl(0, 0%, 100%);
+    font-size: 3em;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+}
+p{
+    font-size: 0.9em;
+    margin: 15px 40px;
+    color: hsl(241, 100%, 89%);
+}
+.statContent{
+    margin-left: 20px;
+}
+#summary{
+    margin-bottom: -5px;
+    margin-left: 40px;
+    text-align: left;
+    color: black;
+}
+.score{
+    margin: -80px 0 0 0;
+}
+.statsBox{
+    width: 400px;
+    height: 450px;
+    margin-left: -10px;
+    background: hsl(0, 0, 100%);
+    text-align: center;
+    box-shadow: 20px 30px 40px hsla(225, 30%, 45%, 0.2);
+    border-radius: 0 20px 20px 0;
+}
+.card{
+    margin: 0 10% 5% 10%;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 30px;
+}
+.cardNumber{
+    text-align: right;
+    display: inline;
+    color: black;
+    float: right;
+}
+.cardContent{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    float: left;
+}
+img{
+    margin: 3px 10px;
+}
+#reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+#memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+#verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+#visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+span{
+    color: hsl(241, 100%, 89%);
+}
+.continue{
+    margin-top: 7%;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 1.2rem;
+    background: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.continue:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.grid-container{
+    margin: 8% 0 0 27%;
+    display: flex;
+}
+.attribution { font-size: 11px; text-align: center; position: fixed; bottom: 0; width: 100%;}
+.attribution a { color: hsl(228, 45%, 44%); }
+@media only screen and (max-width: 376px) {
+    .grid-container{
+        margin: -21px -10px;
+        display: block;
+    }
+    .resultBox{
+        border-radius: 0 0 30px 30px;
+        width: 100%;
+        height: 400px;
+    }
+    .statsBox{
+        width: 100%;
+        box-shadow: none;
+    }
+    h1{
+        padding: 20%;
+    }
+    .circle{
+        width: 45%;
+        height: 40%;
+        margin: -40px 0  0 27%;
+        border-radius: 50%;
+    }
+    .attribution { font-size: 11px; text-align: center; position: relative;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
