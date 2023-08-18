@@ -107,7 +107,7 @@ span{
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 .grid-container{
-    margin: 8% 0 0 27%;
+    margin: 12% 0 0 27%;
     display: flex;
 }
 .attribution { font-size: 11px; text-align: center; position: fixed; bottom: 0; width: 100%;}
